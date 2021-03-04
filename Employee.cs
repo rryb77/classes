@@ -19,7 +19,6 @@ namespace classes
         public string Title { get; }
         public DateTime StartDate { get; }
 
-
         public Employee(string firstName, string lastName, string title, DateTime dt)
         {
             FirstName = firstName;
@@ -27,11 +26,5 @@ namespace classes
             Title = title;
             StartDate = dt;
         }
-
-        public void AddEmployees(List<string> employee)
-        {
-            Console.WriteLine($"{employee}");
-        }
-
     }
 }
